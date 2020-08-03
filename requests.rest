@@ -1,0 +1,12 @@
+POST http://localhost:3500/api/user/login
+Content-Type: application/json
+
+{   
+    "email": "wale@test.com",
+    "password": "walewale"
+}
+
+###
+GET http://localhost:3500/api/post/
+Content-Type: application/json
+auth-token :eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlOGU5MDkwODA1OTYzMzNjNGVjNGNiMSIsImlhdCI6MTU4NjQ2OTczMiwiZXhwIjoxNTg2NDY5NzkyfQ.ffz2AMImvHQSohLz3wnI0BlW9IFhDugnFTsvODMjd64
